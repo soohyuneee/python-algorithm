@@ -1,3 +1,2 @@
 def solution(money):
-    cup = money//5500 
-    return [cup, money - cup*5500]
+    return [money // 5500 , money % 5500]
